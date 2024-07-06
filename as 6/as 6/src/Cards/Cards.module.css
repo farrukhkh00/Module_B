@@ -1,0 +1,29 @@
+.child_a{
+    background-image: url("../assets/img_a.png");   
+    background-repeat: no-repeat;
+    height: 280px;
+    width: 300px;
+}
+.child_b{
+    background-image: url("../assets/img_b.png");   
+    background-repeat: no-repeat;
+    height: 280px;
+    width: 300px;
+}
+.child_c{
+    background-image: url("../assets/img_c.png");   
+    background-repeat: no-repeat;
+    height: 280px;
+    width: 300px;
+}
+.child_d{
+    background-image: url("../assets/img_d.png");   
+    background-repeat: no-repeat;
+    height: 280px;
+    width: 300px;
+}
+.parent_c{
+    display: flex;
+    justify-content: center;
+;
+}
