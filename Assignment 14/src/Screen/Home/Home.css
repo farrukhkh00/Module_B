@@ -1,0 +1,42 @@
+.additional-content {
+    padding-left: 60px; /* Add space from the left */
+    margin-top: 20px;   /* Add space from the hero section */
+}
+
+.content-with-icon {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.apostrophe-icon {
+    font-size: 3.5rem; /* Size of the icon */
+    margin-bottom: 10px; /* Add space below the icon */
+}
+
+.additional-content h1 {
+    font-size: 3rem; /* Make the text bigger */
+    font-weight: 900;  /* Make the text bolder */
+}
+
+.additional-content p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.line-with-text {
+    display: flex;
+    align-items: center;
+}
+
+.half-hr {
+    width: 20%;
+    border: 1px solid rgb(85, 85, 85);
+    margin-right: 15px;
+}
+
+.line-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
