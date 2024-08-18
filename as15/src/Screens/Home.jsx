@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Table from '../Components/Table/Table';
 import { useNavigate } from 'react-router-dom';
 
+
 const Home = () => {
     let [Data,setData] = useState([]);
     useEffect(()=>{

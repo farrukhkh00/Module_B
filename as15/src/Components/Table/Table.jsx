@@ -1,7 +1,20 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
+import { MdDelete } from "react-icons/md";
+import { useNavigate } from 'react-router-dom';
+
 const Table = ({data}) => {
-   
+    const navigate = useNavigate();
+   const handleDelete = (id) =>{
+    axios
+      .delete("http://localhost:2020/users/" + id)
+      .then((res) => {
+        alert("user is permanently deleted");
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+   }
 
   return (
     <>
@@ -46,7 +59,8 @@ const Table = ({data}) => {
                         {e.phone}
                     </td>
                     <td class="px-6 py-4">
-                        <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                        <span style={{cursor : "pointer"}} onClick={()=> navigate(`/edituser/${e.id}`)} class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</span>
+                        <MdDelete onClick={()=> handleDelete(e.id)} style={{fontSize : "30px", color : "red", cursor : "pointer"}}/>
                     </td>
                 </tr>
                 )
