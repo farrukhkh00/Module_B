@@ -1,0 +1,15 @@
+@media (min-width: 768px){
+    .table-resposiveness{
+        width: 84%;
+        margin-left: 129px;
+    }
+}
+
+@media (max-width: 768px){
+    .table-resposiveness{
+     display: flex;
+     justify-content: center;
+     margin-left: -80px;
+
+    }
+}

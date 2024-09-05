@@ -1,0 +1,63 @@
+.syllabus-form-container {
+    padding: 20px;
+    margin-left: 33%;
+    margin-top: 150px;
+
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 600px;
+  }
+  
+  .syllabus-form h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .syllabus-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .syllabus-form .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .syllabus-form .form-group input[type="text"],
+  .syllabus-form .form-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .syllabus-form .add-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #1A237E;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .syllabus-form .add-btn:hover {
+    background-color: #0A3D3A;
+    
+  }
+  
+  @media (max-width: 768px) {
+    .syllabus-form-container {
+      margin-left: 0;
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    .syllabus-form .add-btn {
+      font-size: 14px;
+    }
+  }
+  
